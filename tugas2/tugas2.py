@@ -130,7 +130,7 @@ def spp_uts():
     bulan = float(bulan)
     matkul =float(matkul)
     total_spp = 500000 * bulan
-    byr_uas = 50000*matkul
+    byr_uts = 50000*matkul
     total = total_spp + byr_uts + 5000
     print("\n\ttotal bayar spp Rp.500000 * ",bulan," = Rp.",total_spp)
     print("\ttotal bayar uts Rp.50000 * ",matkul," = Rp.",byr_uts)
